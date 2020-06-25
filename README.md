@@ -21,4 +21,7 @@ Seguidamente, necesitamos encontras las funciones de densidad marginales de X y 
 
 Y, a partir de estos parámetros obtenidos, se grafica las curvas Gaussianas obteniendo:
 
+![GaussX](CurvaAjusteX.png)
+![GaussY](CurvaAjusteY.png)
+
 Donde podemos apreciar que efectivamente la distribución Gaussiana corresponde a la mejor curva de ajuste de las funciones de densidad marginales de X y Y, debido a que ambas modelos obtenidos son muy similares a las curvas reales de las funciones.
