@@ -38,8 +38,33 @@ Es decir, la función de densidad conjunta va estar dada por el producto de las 
 ### Pregunta 3)
 Para esta pregunta, se debe hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado. 
 
-Primeramente, debemos hallar la correlación de los datos. Para ello, la correlación es el momento de segundo orden m11 = E[XY] el cual consiste en el grado en el cual dos o más cantidades están linealmente asociadas. Una vez sabiendo lo que significa el término de correlación, se procede a calcularlo de la forma: Correlación es igual a la sumatoria de la multiplicación de los datos x por y y por la probabilidad conjunta. Esta sumatoria se hace para cada fila de datos de todos los x con todos los y y sus probabilidades asociadas. Con el fin de simplificar este calculo, se usa el archivo `xyp.csv` el cual es más fácil de manejar para este calculo ya que se debe de recorrer cada fila y realizar el producto de los datos y sumar su resultado para obtener la correlación como resultado total de la suma. De esta manera, se obtiene que: 
+Primeramente, debemos hallar la correlación de los datos. La correlación es el momento de segundo orden m11 = E[XY]=Rxy el cual consiste en el grado en el cual dos o más cantidades están linealmente asociadas. Una vez sabiendo lo que significa el término de correlación, se procede a calcularlo de la forma: Correlación es igual a la sumatoria de la multiplicación de los datos x por y y por la probabilidad conjunta. Esta sumatoria se hace para cada fila de datos de todos los x con todos los y y sus probabilidades asociadas. Con el fin de simplificar este calculo, se usa el archivo `xyp.csv` el cual es más fácil de manejar para este calculo ya que se debe de recorrer cada fila y realizar el producto de los datos y sumar su resultado para obtener la correlación como resultado total de la suma. De esta manera, se obtiene que: 
 
 El valor de correlación de los datos es: 149.54281000000012
 
-Seguidamente, se procede a calcular 
+Seguidamente, se procede a calcular la covarianza, la cual se define como el valor que indica el grado de variación conjunta de dos variables aleatorias respecto a sus medias. Se caracteriza por ser el momento conjunto de segundo orden de dos variables aleatorias y se le conoce como Cxy. Una vez sabiendo esto, se procede a calcular la covarianza para las variables X y Y. Se calcula de la forma que la covarianza sea igual a la correlación menos el productos de los valores esperados o medias de X y de Y, que para este caso, como el modelo de las funciones es Guassiana entonces las medias corresponden al valor de mu calculados en la pregunta 1. De esta manera se obtiene que:
+
+El valor de la covarianza de los datos es: 0.183105046498099
+
+Lo que significa que se presenta una dependencia directa (postiva) donde a grandes valores de x corresponden grandes valores de y.
+
+Por último, se necesita calcular el coeficiente de correlación (Pearson), que es el momento de segundo orden normalizado  el cual consiste en una medida estadística que cuantifica la dependencia lineal entre dos variables, es decir, puede utilizarse para medir el grado de relación de dos variables. Este coeficiente se calcula de la forma que el valor obtenido de la covarianza se divide entre el producto de las desviaciones estándar de las variables X y Y, es decir, entre el producto de los sigmas de cada variable. Por ende, al realizar este cálculo se obtiene que:
+
+El valor del coeficiente de correlación (Pearson) es: 0.009207950863939269
+
+Lo que significa que existe una correlación positiva entre las variables X y Y.
+
+### Pregunta 4)
+
+Consiste en graficar las funciones de densidad marginales (2D), la función de densidad conjunta (3D). Para ello, para las graficas en 2D de cada función de densidad marginal se procede a "plotear" los vectores calculados en la pregunta 1) que representan la función de densidad marginal tanto de X como de Y. Estos vectores X y Y se grafican respecto a vectores xs y ys que van de 5 a 15 y de 5 a 25, respectivamente, obteniendo así, las siguientes gráficas:
+
+![GraficaX](Grafica2DX.png)
+![GraficaY](Grafica2DY.png)
+
+Donde podemos apreciar que ambas presentan una forma de curva muy similar a la curva de la distribución Gaussiana (forma de campana) por ende, es que en la pregunta 1 se procede a calcular el modelo de la curva de ajuste a partir de la Gaussiana.
+
+Por último, para obtener la gráfica en 3D de la dunción de densidad conjunta se declaran los vectores x3 que son los datos x brindados, y3 que posee los datos y brindados y los datos z3 que posee la probabilidad conjunta de ambos datos. Posteriormente, se procede a realizar el gráfico en 3D de los dtos de cada vector o de cada dato para obtener la siguiente figura:
+
+![Grafica3DConjunta](Grafica3DConjunta.png)
+
+Donde podemos apreciar, según el plano que se observe, las curvas de X y Y anteriormente gráficadas.
