@@ -38,6 +38,8 @@ Es decir, la función de densidad conjunta va estar dada por el producto de las 
 ### Pregunta 3)
 Para esta pregunta, se debe hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado. 
 
-Primeramente, debemos hallar la correlación de los datos. Para ello, la correlación es el momento de segundo orden m11 = E[XY] el cual consiste en el grado en el cual dos o más cantidades están linealmente asociadas. Una vez sabiendo lo que significa el término de correlación, se procede a calcularlo de la forma:
+Primeramente, debemos hallar la correlación de los datos. Para ello, la correlación es el momento de segundo orden m11 = E[XY] el cual consiste en el grado en el cual dos o más cantidades están linealmente asociadas. Una vez sabiendo lo que significa el término de correlación, se procede a calcularlo de la forma: Correlación es igual a la sumatoria de la multiplicación de los datos x por y y por la probabilidad conjunta. Esta sumatoria se hace para cada fila de datos de todos los x con todos los y y sus probabilidades asociadas. Con el fin de simplificar este calculo, se usa el archivo `xyp.csv` el cual es más fácil de manejar para este calculo ya que se debe de recorrer cada fila y realizar el producto de los datos y sumar su resultado para obtener la correlación como resultado total de la suma. De esta manera, se obtiene que: 
 
-Correlación es igual a la sumatoria de la multiplicación de los datos x por y y por la probabilidad conjunta. Esta sumatoria se hace para cada fila de datos
+El valor de correlación de los datos es: 149.54281000000012
+
+Seguidamente, se procede a calcular 
