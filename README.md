@@ -24,4 +24,6 @@ Y, a partir de estos parámetros obtenidos, se grafica las curvas Gaussianas obt
 ![GaussX](CurvaAjusteX.png)
 ![GaussY](CurvaAjusteY.png)
 
-Donde podemos apreciar que efectivamente la distribución Gaussiana corresponde a la mejor curva de ajuste de las funciones de densidad marginales de X y Y, debido a que ambas modelos obtenidos son muy similares a las curvas reales de las funciones.
+Donde podemos apreciar que efectivamente la distribución Gaussiana corresponde a la mejor curva de ajuste de las funciones de densidad marginales de X y Y, debido a que ambos modelos obtenidos son muy similares a las curvas reales de las funciones (las cuales podemos observar en el punto 4).
+
+###  Pregunta 2)
