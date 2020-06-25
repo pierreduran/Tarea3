@@ -27,3 +27,17 @@ Y, a partir de estos parámetros obtenidos, se grafica las curvas Gaussianas obt
 Donde podemos apreciar que efectivamente la distribución Gaussiana corresponde a la mejor curva de ajuste de las funciones de densidad marginales de X y Y, debido a que ambos modelos obtenidos son muy similares a las curvas reales de las funciones (las cuales podemos observar en el punto 4).
 
 ###  Pregunta 2)
+Consiste en asumir independencia de X y Y. Por ende, se necesita determinar analíticamente, ¿cuál es entonces la expresión de la función de densidad conjunta que modela los datos?
+
+Para ello, debemos de suponer que las funciones de densidad marginales X y Y son estadísticamente independientes y esto se da, si y solo si, la probabilidad del evento conjunto de ambos es igual al producto de las probabilidades de ambas variables independientes. Es por ello que, para calcular la función de densidad conjunta que modela los datos se calcula de la forma: 
+
+fx,y(x,y)=fx(x)fy(y)
+
+Es decir, la función de densidad conjunta va estar dada por el producto de las funciones de densidad marginales de x y y (X y Y).
+
+### Pregunta 3)
+Para esta pregunta, se debe hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado. 
+
+Primeramente, debemos hallar la correlación de los datos. Para ello, la correlación es el momento de segundo orden m11 = E[XY] el cual consiste en el grado en el cual dos o más cantidades están linealmente asociadas. Una vez sabiendo lo que significa el término de correlación, se procede a calcularlo de la forma:
+
+Correlación es igual a la sumatoria de la multiplicación de los datos x por y y por la probabilidad conjunta. Esta sumatoria se hace para cada fila de datos
