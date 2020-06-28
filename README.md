@@ -35,7 +35,7 @@ Para ello, debemos de suponer que las funciones de densidad marginales X y Y son
 
 Teniendo que, los modelos de las funciones de densidad marginales obtenidas en la pregunta 1 son:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=f_x(x)=\frac{1}{\sigma_x\sqrt{2\pi&space;}}e^{-\frac{(x-\mu_x)}{2\sigma&space;^{2}}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_x(x)=\frac{1}{\sigma_x\sqrt{2\pi&space;}}e^{-\frac{(x-\mu_x)}{2\sigma&space;^{2}}}" title="f_x(x)=\frac{1}{\sigma_x\sqrt{2\pi }}e^{-\frac{(x-\mu_x)}{2\sigma_x&space;^{2}}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=f_x(x)=\frac{1}{\sigma_x\sqrt{2\pi&space;}}e^{-\frac{(x-\mu_x)}{2\sigma_x^{2}}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_x(x)=\frac{1}{\sigma_x\sqrt{2\pi&space;}}e^{-\frac{(x-\mu_x)}{2\sigma_x^{2}}}" title="f_x(x)=\frac{1}{\sigma_x\sqrt{2\pi }}e^{-\frac{(x-\mu_x)}{2\sigma_x^{2}}}" /></a>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=f_y(y)=\frac{1}{\sigma_y\sqrt{2\pi&space;}}e^{-\frac{(y-\mu_y)}{2\sigma_y&space;^{2}}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_y(y)=\frac{1}{\sigma_y\sqrt{2\pi&space;}}e^{-\frac{(y-\mu_y)}{2\sigma_y&space;^{2}}}" title="f_y(y)=\frac{1}{\sigma_y\sqrt{2\pi }}e^{-\frac{(y-\mu_y)}{2\sigma_y ^{2}}}" /></a>
 
