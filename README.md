@@ -31,9 +31,15 @@ Consiste en asumir independencia de X y Y. Por ende, se necesita determinar anal
 
 Para ello, debemos de suponer que las funciones de densidad marginales X y Y son estadísticamente independientes y esto se da, si y solo si, la probabilidad del evento conjunto de ambos es igual al producto de las probabilidades de ambas variables independientes. Es por ello que, para calcular la función de densidad conjunta que modela los datos se calcula de la forma: 
 
-fx,y(x,y)=fx(x)fy(y)
+<a href="https://www.codecogs.com/eqnedit.php?latex=f_{x,y}(x,y)=f_x(x)f_y(y)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{x,y}(x,y)=f_x(x)f_y(y)" title="f_{x,y}(x,y)=f_x(x)f_y(y)" /></a>
 
-Es decir, la función de densidad conjunta va estar dada por el producto de las funciones de densidad marginales de x y y (X y Y).
+Teniendo que, los modelos de las funciones de densidad marginales obtenidas en la pregunta 1 son:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=f_x(x)=\frac{1}{\sigma_x\sqrt{2\pi&space;}}e^{-\frac{(x-\mu_x)}{2\sigma&space;^{2}}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_x(x)=\frac{1}{\sigma_x\sqrt{2\pi&space;}}e^{-\frac{(x-\mu_x)}{2\sigma&space;^{2}}}" title="f_x(x)=\frac{1}{\sigma_x\sqrt{2\pi }}e^{-\frac{(x-\mu_x)}{2\sigma_x&space;^{2}}}" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=f_y(y)=\frac{1}{\sigma_y\sqrt{2\pi&space;}}e^{-\frac{(y-\mu_y)}{2\sigma_y&space;^{2}}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_y(y)=\frac{1}{\sigma_y\sqrt{2\pi&space;}}e^{-\frac{(y-\mu_y)}{2\sigma_y&space;^{2}}}" title="f_y(y)=\frac{1}{\sigma_y\sqrt{2\pi }}e^{-\frac{(y-\mu_y)}{2\sigma_y ^{2}}}" /></a>
+
+Por lo tanto, se establece que la función de densidad conjunta va estar dada por el producto de las funciones de densidad marginales de x y y (X y Y), anteriormente mostradas.
 
 ### Pregunta 3)
 Para esta pregunta, se debe hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado. 
