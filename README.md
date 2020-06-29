@@ -39,7 +39,18 @@ Teniendo que, los modelos de las funciones de densidad marginales obtenidas en l
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=f_y(y)=\frac{1}{\sigma_y\sqrt{2\pi&space;}}e^{-\frac{(y-\mu_y)}{2\sigma_y&space;^{2}}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_y(y)=\frac{1}{\sigma_y\sqrt{2\pi&space;}}e^{-\frac{(y-\mu_y)}{2\sigma_y&space;^{2}}}" title="f_y(y)=\frac{1}{\sigma_y\sqrt{2\pi }}e^{-\frac{(y-\mu_y)}{2\sigma_y ^{2}}}" /></a>
 
-Por lo tanto, se establece que la función de densidad conjunta va estar dada por el producto de las funciones de densidad marginales de x y y (X y Y), anteriormente mostradas.
+Por lo tanto, se establece que la función de densidad conjunta va estar dada por el producto de las funciones de densidad marginales de x y y (X y Y), anteriormente mostradas. Por lo que se obtiene que: 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=f_{x,y}(x,y)=\frac{1}{2\pi&space;\sigma_x\sigma_y}e^{-\frac{1}{2}\left&space;(\frac{(x-\mu_x)}{\sigma_x^{2}}&plus;\frac{(y-\mu_y)}{\sigma_y^2}&space;\right&space;)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{x,y}(x,y)=\frac{1}{2\pi&space;\sigma_x\sigma_y}e^{-\frac{1}{2}\left&space;(\frac{(x-\mu_x)}{\sigma_x^{2}}&plus;\frac{(y-\mu_y)}{\sigma_y^2}&space;\right&space;)}" title="f_{x,y}(x,y)=\frac{1}{2\pi \sigma_x\sigma_y}e^{-\frac{1}{2}\left (\frac{(x-\mu_x)}{\sigma_x^{2}}+\frac{(y-\mu_y)}{\sigma_y^2} \right )}" /></a>
+
+Donde, 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mu_x=9.90,&space;\sigma_x=3.29" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mu_x=9.90,&space;\sigma_x=3.29" title="\mu_x=9.90, \sigma_x=3.29" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mu_y=15.07,&space;\sigma_y=6.02" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mu_y=15.07,&space;\sigma_y=6.02" title="\mu_y=15.07, \sigma_y=6.02" /></a>
+
+tal y como se obtuvo en la pregunta 1.
+
 
 ### Pregunta 3)
 Para esta pregunta, se debe hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado. 
