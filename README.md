@@ -15,7 +15,7 @@
 ### Pregunta 1)
 Consiste en que, a partir de los datos csv brindados, se debe de encontrar la mejor curva de ajuste (modelo probabilístico) para las funciones de densidad marginales de X y Y. Para ello, inicialmente se procede a importar y delimitar los datos brindados en los archivos `xy.csv` y `xyp.csv` que serán los utilizados para realizar los cálculos que se solicitan en esta tarea.
 
-Seguidamente, necesitamos encontras las funciones de densidad marginales de X y Y a partir de los datos x y y. Para ello, para calcular X se hace la suma de probabilidades a lo largo de y y para Y se hace la sumatoria a lo largo de x, obteniendo así, vectores que representan las funciones de densidad marginales de cada uno de los datos. Luego, se grafica las funciones X y Y con sus respectivos vectores de x y y con el fin de observar la forma general que presenta la curva y así, establecer cuál es la mejor curva de ajuste para dichas funciones. Una vez hecho esto, se observa que la mejor curva de ajuste puede ser la Gaussiana, por lo tanto, se procede a determinar la función de la distribución Gaussiana y obtener los parámetros mu y sigma de las funciones X y Y teniendo:
+Seguidamente, necesitamos encontrar las funciones de densidad marginales de X y Y a partir de los datos x y y. Para calcular X se hace la suma de probabilidades a lo largo de y y para Y se hace la sumatoria a lo largo de x, obteniendo así, vectores que representan las funciones de densidad marginales de cada uno de los datos. Luego, se grafica las funciones X y Y con sus respectivos vectores de x y y con el fin de observar la forma general que presenta la curva y así, establecer cuál es la mejor curva de ajuste para dichas funciones. Una vez hecho esto, se observa que la mejor curva de ajuste puede ser la Gaussiana, por lo tanto, se procede a determinar la función de la distribución Gaussiana y obtener los parámetros mu y sigma de las funciones X y Y teniendo:
 * Los parametros de ajuste mu y sigma de la curva Gaussiana de X son: [9.90484381 3.29944288]
 * Los parametros de ajuste mu y sigma de la curva Gaussiana de Y son: [15.0794609   6.02693776]
 
@@ -24,7 +24,7 @@ Y, a partir de estos parámetros obtenidos, se grafica las curvas Gaussianas obt
 ![GaussX](CurvaAjusteX.png)
 ![GaussY](CurvaAjusteY.png)
 
-Donde podemos apreciar que efectivamente la distribución Gaussiana corresponde a la mejor curva de ajuste de las funciones de densidad marginales de X y Y, debido a que ambos modelos obtenidos son muy similares a las curvas reales de las funciones (las cuales podemos observar en el punto 4).
+Donde podemos apreciar que efectivamente la distribución Gaussiana corresponde a la mejor curva de ajuste de las funciones de densidad marginales de X y Y, debido a que ambos modelos obtenidos son muy similares a las curvas reales de las funciones (las cuales podemos observar en la pregunta 4).
 
 ###  Pregunta 2)
 Consiste en asumir independencia de X y Y. Por ende, se necesita determinar analíticamente, ¿cuál es entonces la expresión de la función de densidad conjunta que modela los datos?
@@ -73,14 +73,14 @@ Lo que significa que existe una correlación positiva entre las variables X y Y.
 
 ### Pregunta 4)
 
-Consiste en graficar las funciones de densidad marginales (2D), la función de densidad conjunta (3D). Para ello, para las graficas en 2D de cada función de densidad marginal se procede a "plotear" los vectores calculados en la pregunta 1) que representan la función de densidad marginal tanto de X como de Y. Estos vectores X y Y se grafican respecto a vectores xs y ys que van de 5 a 15 y de 5 a 25, respectivamente, obteniendo así, las siguientes gráficas:
+Consiste en graficar las funciones de densidad marginales (2D), la función de densidad conjunta (3D). Para ello, para las gráficas en 2D de cada función de densidad marginal se procede a "plotear" los vectores calculados en la pregunta 1) que representan la función de densidad marginal tanto de X como de Y. Estos vectores X y Y se grafican respecto a vectores xs y ys que van de 5 a 15 y de 5 a 25, respectivamente, obteniendo así, las siguientes gráficas:
 
 ![GraficaX](Grafica2DX.png)
 ![GraficaY](Grafica2DY.png)
 
 Donde podemos apreciar que ambas presentan una forma de curva muy similar a la curva de la distribución Gaussiana (forma de campana) por ende, es que en la pregunta 1 se procede a calcular el modelo de la curva de ajuste a partir de la Gaussiana.
 
-Por último, para obtener la gráfica en 3D de la dunción de densidad conjunta se declaran los vectores x3 que son los datos x brindados, y3 que posee los datos y brindados y los datos z3 que posee la probabilidad conjunta de ambos datos. Posteriormente, se procede a realizar el gráfico en 3D de los dtos de cada vector o de cada dato para obtener la siguiente figura:
+Por último, para obtener la gráfica en 3D de la función de densidad conjunta se declaran los vectores x3 que son los datos x brindados, y3 que posee los datos y brindados y los datos z3 que posee la probabilidad conjunta de ambos datos. Posteriormente, se procede a realizar el gráfico en 3D de los datos de cada vector o de cada dato para obtener la siguiente figura:
 
 ![Grafica3DConjunta](Grafica3DConjunta.png)
 
